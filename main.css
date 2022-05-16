@@ -1,0 +1,37 @@
+*{font-size: 30px;
+  margin: 0;
+}
+  .board{
+    width:100vw;
+    height:100vh;
+    background: #C3C8FF;
+  
+  }
+  #answer{
+    width: 95vw;
+    height: 17vh;
+  
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    float: right;
+    padding:2vw;
+  }
+  
+  .btn,.del{
+    width: 23vw;height: 10vh;
+    background: #4651D5;
+    float: left;
+    margin: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .del{
+    width: 98vw;
+  }
+  #result{
+    display:block;
+  }
+  
