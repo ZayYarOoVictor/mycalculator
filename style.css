@@ -1,0 +1,49 @@
+  *{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+  }
+  body{
+    background: #000000;
+  }
+  .board{
+    height: 70vh;
+    position: absolute;
+    padding: 1vw;
+    bottom: 0px;
+  }
+ .btn{
+    width: 20vw;
+    height: 20vw;
+    background: rgb(49, 49, 49);
+    margin:2vw;
+    float:left;
+    border-radius: 50px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .input{
+      color: #FFFFFF;
+      position: absolute;
+      right:10vw;
+      top:20vw;
+      font-size: 100px;
+    }
+    .ans{
+      color: #FFF;
+      position: absolute;
+      right:10vw;
+      top:40vw;
+    }
+    .white{
+      background: rgb(159, 159, 159);
+      color:black;
+    }
+    .yellow{
+      background: rgb(246, 153, 6)
+    }
+    
+  </style>
+  

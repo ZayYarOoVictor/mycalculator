@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="input">0</div>
+  <div class="ans"></div>
+  <div class="board">
+  
+  <div class="btn white" onclick="all_clear()">AC</div>
+  <div class="btn white" onclick="del()"><=</div>
+  <div class="btn" onclick="btn('(')">(</div>
+  <div class="btn" onclick="btn(')')">)</div>
+  
+  <div class="btn" onclick="btn(7)">7</div>
+  <div class="btn" onclick="btn(8)">8</div>
+  <div class="btn" onclick="btn(9)">9</div>
+  <div class="btn yellow" onclick="sign('×','*')">×</div>
+  <div class="btn" onclick="btn(4)">4</div>
+  <div class="btn" onclick="btn(5)">5</div>
+  <div class="btn" onclick="btn(6)">6</div>
+  <div class="btn yellow" onclick="sign('-','-')">-</div>
+  <div class="btn" onclick="btn(1)">1</div>
+  <div class="btn" onclick="btn(2)">2</div>
+  <div class="btn" onclick="btn(3)">3</div>
+  <div class="btn yellow" onclick="sign('+','+')">+</div>
+  <div class="btn zero" onclick="btn(0)">0</div>
+  <div class="btn" onclick="point()">.</div>
+  <div class="btn yellow" onclick="cal()">=</div>
+  <div class="btn yellow" onclick="sign('÷','/')">÷</div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
